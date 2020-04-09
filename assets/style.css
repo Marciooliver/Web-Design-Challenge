@@ -1,0 +1,28 @@
+.bg-custom {
+  background-color: white;
+}
+.background {
+  background-color: lightgray;
+}
+.headings {
+  color: darkcyan;
+
+}
+.home-button,
+.home-button:link,
+.home-button:visited,
+.home-button:hover {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: darkcyan;
+  padding: 1rem;
+}
+.test {
+  color: violet;
+}
+.box {
+  background-color: white;
+  padding: 2rem;
+  border:10px solid lightgray;
+}

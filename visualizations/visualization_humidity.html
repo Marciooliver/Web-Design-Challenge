@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Header -->
+<head>
+    <meta charset=“utf-8”>
+    <title>Visualization Humidity</title>
+    <meta 
+        name="viewport" 
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap call -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
+
+<!-- CSS Style -->
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<!-- Navegation Bar -->
+<body class="background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom" 
+        style="padding: 0rem 1.5rem;">
+<!-- Latitude Button -->
+        <a class="navbar-text home-button" href="../../index.html">Latitude</a>
+        <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+<!-- Navegation Bar Organization -->
+        <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active dropdown">
+                    <a 
+                        class="nav-link dropdown-toggle" 
+                        href="#" 
+                        id="navbarDropdown" 
+                        role="button"
+                        data-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false">
+
+
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="visualizations/visualization_maxtemp.html">Max
+                            Temperature</a>
+                        <a class="dropdown-item" href="visualizations/visualization_cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="visualizations/visualization_humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="visualizations/visualization_wind_speed.html">Wind
+                            Speed</a>
+                    </div>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="../assets/comparisons_page.html">Comparison <span
+                            class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="../assets/data_page.html">Data</a>
+                </li>
+            </ul>
+        </nav>
+    </nav>
+
+    <div class="container-fluid" style="padding: 2rem;">
+        <div class="row">
+            <div class="col-md-8 box" style="padding-right: 1rem;">
+                <h1 class="headings pb-3">Humidity</h1><hr/>
+                <img src="../Resources/assets/images/Fig2.png" class="img-fluid float-left" width="100%"
+                    alt="Responsive image">
+                <p>The present visual representation of the dataset reveals to us that humidity drops as 
+                    latitude moves further away from 0 degrees. It is noticeable that latitudes superior 
+                    to 0 have a higher range of different humidity values scattered from 0 to 100. While 
+                    humidity values reach higher numbers and have a lower range in the equatorial belt. 
+                    In contrast, humidity levels in latitudes inferior to 0 degrees are equally scattered, 
+                    yet rarely touch the extreme sides of the 0 to 100 range. 
+                </p>
+            </div>
+
+            <div class="col-md-4 box">
+                <h2 class="headings pb-2">Visualizations</h2><hr/>
+                <div class="col-md-6 float-left pt-3" style="padding: 0rem;">
+                    <figure class="figure">
+                        <img src="../Resources/assets/images/Fig1.png" class="img-fluid" alt="Responsive image">
+                        <figcaption class="figure-caption text-center"> Temperature</figcaption>
+                        <img src="../Resources/assets/images/Fig2.png" class="img-fluid border border-info" alt="Responsive image">
+                        <figcaption class="figure-caption text-center"> Humidity</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-6 float-right pt-3" style="padding: 0rem;">
+                    <figure class="figure">
+                        <img src="../Resources/assets/images/Fig3.png" class="img-fluid" alt="../Responsive image">
+                        <figcaption class="figure-caption text-center"> Cloudiness</figcaption>
+                        <img src="../Resources/assets/images/Fig4.png" class="img-fluid" alt="Responsive image">
+                        <figcaption class="figure-caption text-center"> Wind Speed</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
